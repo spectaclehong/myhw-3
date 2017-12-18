@@ -6,7 +6,7 @@ void
 print_block_list(/* arguments */) {
    int i = 0;
    p_meta cur = base;
-
+   p_meta last = sbrk(0);
    printf("Current block metatdata \n");
    printf("-------------------------------------\n");
    while(cur)
